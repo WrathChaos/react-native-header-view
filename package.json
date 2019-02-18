@@ -1,6 +1,6 @@
 {
   "name": "@freakycoder/react-native-header-view",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Wrapper of react-native-vector-icons to use dynamic types.",
   "keywords": [
     "react-native",
