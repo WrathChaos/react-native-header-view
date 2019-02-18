@@ -7,8 +7,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.6.3",
+    "react": "16.5.0",
     "react-native": "0.58.4",
+    "react-native-vector-icons": "^6.3.0",
     "react-native-iphone-x-helper": "^1.2.0",
     "react-native-dynamic-vector-icons": "0.0.3",
     "@freakycoder/react-native-header-view": "0.0.3"
