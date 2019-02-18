@@ -1,21 +1,27 @@
 {
   "name": "react-native-header-view",
-  "main": "node_modules/expo/AppEntry.js",
-  "private": true,
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
-  },
-  "dependencies": {
-    "expo": "^31.0.2",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-native-dynamic-vector-icons": "WrathChaos/react-native-dynamic-vector-icons#expo",
-    "react-native-iphone-x-helper": "^1.2.0"
-  },
-  "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+  "version": "0.0.3",
+  "description": "Wrapper of react-native-vector-icons to use dynamic types.",
+  "keywords": [
+    "react-native",
+    "icons",
+    "javascript",
+    "ui-lib",
+    "rn",
+    "header-view",
+    "header",
+    "view"
+  ],
+  "homepage": "https://www.freakycoder.com",
+  "bugs": "https://github.com/WrathChaos/react-native-header-view/issues",
+  "main": "./lib/components/Header.js",
+  "repository": "git@github.com:WrathChaos/react-native-header-view.git",
+  "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">= 16.x",
+    "react-native": ">= 0.55.x",
+    "react-native-iphone-x-helper": ">= 1.2.x",
+    "react-native-dynamic-vector-icons": ">= x.x.x"
   }
 }
