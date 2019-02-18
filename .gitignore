@@ -2,7 +2,6 @@
 #
 .DS_Store
 
-.expo/*
 # Xcode
 #
 build/
@@ -30,6 +29,8 @@ build/
 .gradle
 local.properties
 *.iml
+andro/
+*.class
 
 # node.js
 #
