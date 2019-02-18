@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-header-view",
-    "description": "This project is really great.",
+    "description": "Fully customizable Header View for React Native.",
     "slug": "react-native-header-view",
     "privacy": "public",
     "sdkVersion": "31.0.0",
