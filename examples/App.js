@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-  StyleSheet, 
+  StyleSheet,
   Linking,
-  Text, 
-  View, 
+  Text,
+  View,
   TouchableOpacity
 } from 'react-native';
 import Header from '@freakycoder/react-native-header-view';
@@ -23,7 +23,12 @@ export default class App extends React.Component {
             </TouchableOpacity>
           }
         />
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text style={{
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
+          Open up App.js to start working on your app!
+          </Text>
       </View>
     );
   }
