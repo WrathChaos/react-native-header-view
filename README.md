@@ -2,8 +2,8 @@
 
 Fully customizable Header View for React Native.
 
-[![npm version](https://img.shields.io/npm/v/react-native-header-view.svg)](https://www.npmjs.com/package/react-native-header-view)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-header-view.svg)](https://www.npmjs.com/package/react-native-header-view)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
+[![npm downloads](https://img.shields.io/npm/dm/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <p align="left">
