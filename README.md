@@ -95,6 +95,9 @@ npm i @freakycoder/react-native-header-view
 | centerComponent       | component |    Icon    | set the center component                                            |
 | centerComponentStyle  |   style   |   style    | set the center component's style                                    |
 
+# Change Log
+
+## [0.2.0](https://github.com/wrathchaos/react-native-header-view/tree/0.2.0) (2019-02-23)
 
 ## Author
 
