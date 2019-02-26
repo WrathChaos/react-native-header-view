@@ -2,13 +2,11 @@
 
 Fully customizable Header View for React Native.
 
-[[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
-[![npm downloads](https://img.shields.io/npm/dm/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)]([![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
 [![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-header-view.svg)](https://www.npmjs.org/package/@freakycoder/react-native-header-view)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-yellow.svg)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier))
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 <p align="left">
 <img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/example.png" width="49.7%"/>
