@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  SafeAreaView,
   StatusBar,
   StyleSheet,
   Linking,
@@ -13,26 +14,28 @@ import Icon from "react-native-dynamic-vector-icons";
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <StatusBar hidden />
-        <Header
-          statusBarHidden
-          headerTitle="Header"
-          rightComponent={
-            <TouchableOpacity
-              style={{ right: 8 }}
-              onPress={() => Linking.openURL("https://github.com/WrathChaos")}
-            >
-              <Icon name="github" type="AntDesign" size={30} color="purple" />
-            </TouchableOpacity>
-          }
-        />
-        <View style={styles.textContainer}>
-          <Text style={styles.textStyle}>
-            Open up App.js to start working on your app!
-          </Text>
+      <SafeAreaView style={styles.container}>
+        <View>
+          <StatusBar hidden />
+          <Header
+            statusBarHidden
+            headerTitle="Header"
+            rightComponent={
+              <TouchableOpacity
+                style={{ right: 8 }}
+                onPress={() => Linking.openURL("https://github.com/WrathChaos")}
+              >
+                <Icon name="github" type="AntDesign" size={30} color="purple" />
+              </TouchableOpacity>
+            }
+          />
+          <View style={styles.textContainer}>
+            <Text style={styles.textStyle}>
+              Open up App.js to start working on your app!
+            </Text>
+          </View>
         </View>
-      </View>
+      </SafeAreaView>
     );
   }
 }
