@@ -8,8 +8,9 @@ Fully customizable Header View for React Native.
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-<p align="left">
-<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/example.png" width="49.7%"/>
+<p align="center">
+<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/example1.png" width="49.7%"/>
+<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/example0.png" width="49.7%"/>
 </p>
 
 ## Installation
