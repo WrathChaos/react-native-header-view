@@ -8,7 +8,7 @@ const App = () => {
     <Fragment>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <ClassicHeader
+        {/* <ClassicHeader
           statusBarHidden
           headerTitle="Header"
           rightComponent={
@@ -19,7 +19,8 @@ const App = () => {
               <Icon name="github" type="AntDesign" size={30} color="purple" />
             </TouchableOpacity>
           }
-        />
+        /> */}
+        <ModernHeader />
       </SafeAreaView>
     </Fragment>
   );
