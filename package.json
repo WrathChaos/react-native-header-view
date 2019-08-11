@@ -14,7 +14,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-header-view/issues",
-  "main": "./lib/components/Header.js",
+  "main": "./lib/src/index.js",
   "repository": "git@github.com:WrathChaos/react-native-header-view.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
