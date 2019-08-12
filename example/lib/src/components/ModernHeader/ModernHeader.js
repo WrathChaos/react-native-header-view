@@ -13,15 +13,53 @@ const hitslopObj = {
 };
 
 const ModernHeader = props => {
-  const { left, right, text, textStyle } = props;
+  const {
+    left,
+    right,
+    text,
+    textStyle,
+    leftIconName,
+    leftIconType,
+    leftIconSize,
+    leftIconColor,
+    rightIconName,
+    rightIconType,
+    rightIconSize,
+    rightIconColor,
+    leftIconComponent,
+    rightIconComponent,
+    leftIconOnPress,
+    rightIconOnPress
+  } = props;
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={leftCompStyle(left)} hitSlop={hitslopObj}>
-        <Icon name="ios-arrow-back" type="Ionicons" size={25} color="#bbbabe" />
+      <TouchableOpacity
+        style={leftCompStyle(left)}
+        hitSlop={hitslopObj}
+        onPress={leftIconOnPress}
+      >
+        {leftIconComponent || (
+          <Icon
+            name={leftIconName}
+            type={leftIconType}
+            size={leftIconSize}
+            color={leftIconColor}
+          />
+        )}
       </TouchableOpacity>
       <Text style={textStyle}>{text}</Text>
-      <TouchableOpacity style={rightCompStyle(right)}>
-        <Icon name="heart" type="Entypo" size={25} color="#23c4c1" />
+      <TouchableOpacity
+        style={rightCompStyle(right)}
+        onPress={rightIconOnPress}
+      >
+        {rightIconComponent || (
+          <Icon
+            name={rightIconName}
+            type={rightIconType}
+            size={rightIconSize}
+            color={rightIconColor}
+          />
+        )}
       </TouchableOpacity>
     </View>
   );
@@ -30,14 +68,30 @@ const ModernHeader = props => {
 ModernHeader.propTypes = {
   left: PropTypes.number,
   right: PropTypes.number,
-  text: PropTypes.string
+  text: PropTypes.string,
+  leftIconName: PropTypes.string,
+  leftIconType: PropTypes.string,
+  leftIconSize: PropTypes.string,
+  leftIconColor: PropTypes.string,
+  rightIconName: PropTypes.string,
+  rightIconType: PropTypes.string,
+  rightIconSize: PropTypes.string,
+  rightIconColor: PropTypes.string
 };
 
 ModernHeader.defaultProps = {
   left: 16,
   right: 16,
   text: "Header Title",
-  textStyle: styles.textStyle
+  textStyle: styles.textStyle,
+  leftIconName: "ios-arrow-back",
+  leftIconType: "Ionicons",
+  leftIconSize: 25,
+  leftIconColor: "#bbbabe",
+  rightIconName: "heart",
+  rightIconType: "Entypo",
+  rightIconSize: 25,
+  rightIconColor: "#23c4c1"
 };
 
 export default ModernHeader;
