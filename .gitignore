@@ -2,6 +2,10 @@
 #
 .DS_Store
 
+package-lock.json
+
+node_modules
+
 # Xcode
 #
 build/
@@ -29,8 +33,6 @@ build/
 .gradle
 local.properties
 *.iml
-andro/
-*.class
 
 # node.js
 #

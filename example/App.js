@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
-import { StatusBar, SafeAreaView, TouchableOpacity } from "react-native";
-import { ClassicHeader, ModernHeader } from "./lib/src/index";
-import Icon from "react-native-dynamic-vector-icons";
+import { StatusBar, SafeAreaView } from "react-native";
+import { ClassicHeader, ModernHeader } from "react-native-header-view";
 
 const App = () => {
   return (
