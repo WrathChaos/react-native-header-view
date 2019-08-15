@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { StatusBar, SafeAreaView } from "react-native";
-import { ClassicHeader, ModernHeader } from "react-native-header-view";
+import { ClassicHeader, ModernHeader } from "@freakycoder/react-native-header-view";
 
 const App = () => {
   return (
