@@ -1,6 +1,6 @@
 <img alt="React Native Bottom Bar" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/logo.png" width="1050"/>
 
-Fully customizable Header View for React Native.
+Fully customizable Header View with multiple design options for React Native.
 
 [![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
 [![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-header-view.svg)](https://www.npmjs.org/package/@freakycoder/react-native-header-view)
