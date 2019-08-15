@@ -96,8 +96,41 @@ npm i @freakycoder/react-native-header-view
 
 ### Configuration - Props
 
-#### Classic Header
+#### Modern Header Props
 
+    
+    leftIconComponent,
+    rightIconComponent,
+    leftIconOnPress,
+    rightIconOnPress,
+    rightDisable,
+    leftDisable
+
+
+| Property           |   Type    |    Default     | Description                                                     |
+| ------------------ | :-------: | :------------: | --------------------------------------------------------------- |
+| styles             |  styles   |     styles     | use this to change main style of the header                     |
+| text               |  string   | "Header Title" | set the header's title                                          |
+| textStyle          |   style   |     style      | set your own style for the header's text                        |
+| left               |  number   |       16       | use this to set left icon's align                               |
+| right              |  number   |       16       | use this to set right icon's align                              |
+| leftIconName       |  string   | ios-arrow-back | change the left icon depends on the React Native Vector Icons   |
+| leftIconType       |  string   |    Ionicons    | change the left icon's type                                     |
+| leftIconSize       |  number   |       25       | change the left icon's size                                     |
+| leftIconColor      |   color   |    #bbbabe     | change the left icon's color                                    |
+| rightIconName      |  string   |     heart      | change the right icon depends on the React Native Vector Icons  |
+| rightIconType      |  string   |     Entypo     | change the right icon's type                                    |
+| rightIconSize      |  number   |       25       | change the right icon's size                                    |
+| rightIconColor     |   color   |    #23c4c1     | change the right icon's color                                   |
+| leftIconComponent  | component |      Icon      | use your own component instead of the integrated Icon component |
+| rightIconComponent | component |      Icon      | use your own component instead of the integrated Icon component |
+| leftIconOnPress    | function  |    function    | set the function for left icon's onPress                        |
+| rightIconOnPress   | function  |    function    | set the function for right icon's onPress                       |
+| leftDisable        |  boolean  |     false      | disable the left icon component                                 |
+| rightDisable       |  boolean  |     false      | disable the right icon component                                |
+
+
+#### Classic Header Props
 
 | Property              |   Type    |  Default   | Description                                                                  |
 | --------------------- | :-------: | :--------: | ---------------------------------------------------------------------------- |
