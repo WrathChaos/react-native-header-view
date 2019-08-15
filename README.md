@@ -34,10 +34,35 @@ npm i @freakycoder/react-native-header-view
 "react-native-dynamic-vector-icons": ">= x.x.x"
 ```
 
-## Basic Usage
+# Usage
 
-```ruby
-<Header
+## Modern Header Usage
+
+#### Basic Usage
+
+
+
+```js
+<ModernHeader />
+```
+
+#### Advanced Usage
+
+```js
+<ModernHeader
+  text="Profile"
+  rightIconType="Ionicons"
+  rightIconName="ios-settings"
+  rightIconColor={colors.light.primary}
+  leftIconOnPress={() => NavigationService.back()}
+/>
+```
+## Classic Header Usage
+
+#### Basic Usage
+
+```js
+<ClassicHeader
   headerTitle="Header"
   rightComponentDisable
   leftComponentOnPress={() => {}}
@@ -49,12 +74,10 @@ npm i @freakycoder/react-native-header-view
   }
 />
 ```
+#### Advanced Custom Usage
 
-
-## Advanced Usage
-
-```ruby
-<Header
+```js
+<ClassicHeader
   headerTitle="Header"
   leftComponent={
     <TouchableOpacity
@@ -72,6 +95,8 @@ npm i @freakycoder/react-native-header-view
 ```
 
 ### Configuration - Props
+
+#### Classic Header
 
 
 | Property              |   Type    |  Default   | Description                                                                  |
@@ -94,10 +119,6 @@ npm i @freakycoder/react-native-header-view
 | rightComponentOnPress | function  |    null    | set the right component's onPress function                                   |
 | centerComponent       | component |    Icon    | set the center component                                                     |
 | centerComponentStyle  |   style   |   style    | set the center component's style                                             |
-
-# Change Log
-
-## [0.2.0](https://github.com/wrathchaos/react-native-header-view/tree/0.2.0) (2019-02-23)
 
 
 ## Author
