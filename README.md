@@ -98,15 +98,6 @@ npm i @freakycoder/react-native-header-view
 
 #### Modern Header Props
 
-    
-    leftIconComponent,
-    rightIconComponent,
-    leftIconOnPress,
-    rightIconOnPress,
-    rightDisable,
-    leftDisable
-
-
 | Property           |   Type    |    Default     | Description                                                     |
 | ------------------ | :-------: | :------------: | --------------------------------------------------------------- |
 | styles             |  styles   |     styles     | use this to change main style of the header                     |
