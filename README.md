@@ -149,6 +149,15 @@ npm i @freakycoder/react-native-header-view
 ## [0.3.0](https://github.com/WrathChaos/react-native-header-view/tree/0.3.0) (2019-08-12)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.2.61...0.3.0)
 
+⚠️ BREAKING CHANGE ON WHOLE LIBRARY ! PLEASE READ !
+
+🚀Now, It has two Header which are : 
+
+* ClassicHeader (Old One)
+* ModernHeader (New One)
+
+Usage is not changed however import method is changed. Please check the example ✌️
+
 **Merged pull requests:**
 
 - Bump lodash from 4.17.11 to 4.17.14 in /examples [\#3](https://github.com/WrathChaos/react-native-header-view/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
