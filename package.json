@@ -1,8 +1,15 @@
 {
   "name": "@freakycoder/react-native-header-view",
-  "version": "0.3.11",
+  "version": "0.4.0",
   "description": "Fully customizable Header View for React Native.",
   "keywords": [
+    "apple",
+    "apple-header",
+    "header",
+    "classic",
+    "modern",
+    "modern-header",
+    "classic-header",
     "react-native",
     "icons",
     "javascript",

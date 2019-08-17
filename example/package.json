@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@freakycoder/react-native-header-view": "^0.3.11",
+    "@freakycoder/react-native-header-view": "^0.4.0",
     "react": "16.8.6",
     "react-native": "0.60.4",
     "react-native-dynamic-vector-icons": "0.0.4",

@@ -1,6 +1,10 @@
 import React, { Fragment } from "react";
 import { StatusBar, SafeAreaView } from "react-native";
-import { ClassicHeader, ModernHeader } from "@freakycoder/react-native-header-view";
+import {
+  AppleHeader,
+  ModernHeader,
+  ClassicHeader
+} from "@freakycoder/react-native-header-view";
 
 const App = () => {
   return (
@@ -19,7 +23,8 @@ const App = () => {
             </TouchableOpacity>
           }
         /> */}
-        <ModernHeader />
+        {/* <ModernHeader /> */}
+        <AppleHeader />
       </SafeAreaView>
     </Fragment>
   );
