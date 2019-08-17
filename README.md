@@ -16,7 +16,7 @@
 
 
 <p align="center">
-<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss2.png" width="49.7%"/>
+<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss2.png" width="49.7%" height="420"/>
 <img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss3.png" width="49.7%"/>
 </p>
 
