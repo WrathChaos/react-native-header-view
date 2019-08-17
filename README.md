@@ -41,13 +41,21 @@ npm i @freakycoder/react-native-header-view
 "react-native-dynamic-vector-icons": ">= x.x.x"
 ```
 
+# Options 
+
+- AppleHeader
+- ModernHeader
+- ClassicHeader
+
 # Usage
 
+## Apple Header Usage
+
+```js
+<AppleHeader />
+```
+
 ## Modern Header Usage
-
-#### Basic Usage
-
-
 
 ```js
 <ModernHeader />
@@ -103,12 +111,24 @@ npm i @freakycoder/react-native-header-view
 
 ### Configuration - Props
 
+#### Apple Header Props
+
+dateTitle, largeTitle, imageSource, onPress
+
+
+| Property    |   Type   |       Default       | Description                               |
+| ----------- | :------: | :-----------------: | ----------------------------------------- |
+| dateTitle   |  string  | MONDAY, 27 NOVEMBER | set your own string instead of date title |
+| largeTitle  |  string  |       For You       | set your own large title                  |
+| imageSource |  image   |        image        | set your own image                        |
+| onPress     | function |        null         | use this to set onPress functionality     |
+
 #### Modern Header Props
 
 | Property           |   Type    |    Default     | Description                                                     |
 | ------------------ | :-------: | :------------: | --------------------------------------------------------------- |
 | styles             |  styles   |     styles     | use this to change main style of the header                     |
-| text               |  string   | "Header Title" | set the header's title                                          |
+| text               |  string   |  Header Title  | set the header's title                                          |
 | textStyle          |   style   |     style      | set your own style for the header's text                        |
 | left               |  number   |       16       | use this to set left icon's align                               |
 | right              |  number   |       16       | use this to set right icon's align                              |
