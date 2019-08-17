@@ -1,12 +1,18 @@
 <img alt="React Native Bottom Bar" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/logo.png" width="1050"/>
 
-Fully customizable Header View with multiple design options for React Native.
 
-[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
-[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-header-view.svg)](https://www.npmjs.org/package/@freakycoder/react-native-header-view)
-![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
+
+
+[![Fully customizable Header View with multiple design options for React Native.](https://img.shields.io/badge/-Fully%20customizable%20Header%20View%20with%20multiple%20design%20options%20for%20React%20Native.-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-view)
+
+
+
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
+[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-header-view.svg?style=for-the-badge)](https://www.npmjs.org/package/@freakycoder/react-native-header-view)
+![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
 <img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss1.png" width="49.7%"/>
