@@ -14,14 +14,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
+
 <p align="center">
 <img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss2.png" width="49.7%"/>
-<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/bl0ob/master/assets/Screenshots/ss3.png" width="49.7%"/>
+<img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss3.png" width="49.7%"/>
 </p>
 
 <p align="center">
 <img alt="React Native Header View" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/ss1.png" width="49.7%"/>
 </p>
+
 
 ## Installation
 
