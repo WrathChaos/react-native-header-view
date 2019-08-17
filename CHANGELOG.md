@@ -1,7 +1,12 @@
 # Change Log
 
+## [0.4.5](https://github.com/WrathChaos/react-native-header-view/tree/0.4.5) (2019-08-17)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.3.0...0.4.5)
+
 ## [0.3.0](https://github.com/WrathChaos/react-native-header-view/tree/0.3.0) (2019-08-12)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.2.61...0.3.0)
+
+
 ⚠️ BREAKING CHANGE ON WHOLE LIBRARY ! PLEASE READ !
 
 🚀Now, It has two Header which are : 
