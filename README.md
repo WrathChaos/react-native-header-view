@@ -118,8 +118,6 @@ npm i @freakycoder/react-native-header-view
 
 #### Apple Header Props
 
-dateTitle, largeTitle, imageSource, onPress
-
 
 | Property    |   Type   |       Default       | Description                               |
 | ----------- | :------: | :-----------------: | ----------------------------------------- |
