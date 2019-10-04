@@ -118,10 +118,6 @@ npm i @freakycoder/react-native-header-view
 
 #### Apple Header Props
 
-    avatarStyle,
-    containerStyle,
-
-
 
 | Property             |   Type   |       Default       | Description                                                                           |
 | -------------------- | :------: | :-----------------: | ------------------------------------------------------------------------------------- |
