@@ -118,13 +118,30 @@ npm i @freakycoder/react-native-header-view
 
 #### Apple Header Props
 
+    avatarStyle,
+    containerStyle,
 
-| Property    |   Type   |       Default       | Description                               |
-| ----------- | :------: | :-----------------: | ----------------------------------------- |
-| dateTitle   |  string  | MONDAY, 27 NOVEMBER | set your own string instead of date title |
-| largeTitle  |  string  |       For You       | set your own large title                  |
-| imageSource |  image   |        image        | set your own image                        |
-| onPress     | function |        null         | use this to set onPress functionality     |
+
+
+| Property             |   Type   |       Default       | Description                                                                           |
+| -------------------- | :------: | :-----------------: | ------------------------------------------------------------------------------------- |
+| dateTitle            |  string  | MONDAY, 27 NOVEMBER | set your own string instead of date title                                             |
+| largeTitle           |  string  |       For You       | set your own large title                                                              |
+| imageSource          |  image   |        image        | set your own image                                                                    |
+| onPress              | function |        null         | use this to set onPress functionality                                                 |
+| backgroundColor      |  color   |     transparent     | use this to change the main container's background color                              |
+| borderColor          |  color   |       #EFEFF4       | use this to change the bottom border color                                            |
+| dateTitleFontColor   |  color   |       #8E8E93       | use this to change the date title's font color                                        |
+| dateTitleFontSize    |  number  |         13          | use this to set the date title's font size                                            |
+| dateTitleFontWeight  |  string  |        "600"        | use this to set the date title's font weight                                          |
+| largeTitleFontColor  |  color   |    default color    | use this to change the large title's font color                                       |
+| largeTitleFontSize   |  number  |         34          | use this to set the large title's font size                                           |
+| largeTitleFontWeight |  string  |       "bold"        | use this to set the large title's font weight                                         |
+| dateTitleStyle       |  style   |    default style    | use this to set your own style for date title (DO NOT RECOMMENDED!)                   |
+| largeTitleStyle      |  style   |    default style    | use this to set your own style for large title (DO NOT RECOMMENDED!)                  |
+| containerStyle       |  style   |    default style    | use this to set your own style for whole container (DO NOT RECOMMENDED!)              |
+| avatarStyle          |  style   |    default style    | use this to set your own style for avatar style (DO NOT FORGET TO ADD BORDER-RADIUS!) |
+
 
 #### Modern Header Props
 
