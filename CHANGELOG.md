@@ -1,20 +1,24 @@
 # Change Log
 
+## [0.4.7](https://github.com/WrathChaos/react-native-header-view/tree/0.4.7) (2019-10-04)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.6...0.4.7)
+
+## [0.4.6](https://github.com/WrathChaos/react-native-header-view/tree/0.4.6) (2019-10-04)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.5...0.4.6)
+
+**Closed issues:**
+
+- Request to Add product in Start React [\#5](https://github.com/WrathChaos/react-native-header-view/issues/5)
+
+**Merged pull requests:**
+
+- Bump eslint-utils from 1.4.0 to 1.4.2 in /example [\#4](https://github.com/WrathChaos/react-native-header-view/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.4.5](https://github.com/WrathChaos/react-native-header-view/tree/0.4.5) (2019-08-17)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.3.0...0.4.5)
 
 ## [0.3.0](https://github.com/WrathChaos/react-native-header-view/tree/0.3.0) (2019-08-12)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.2.61...0.3.0)
-
-
-⚠️ BREAKING CHANGE ON WHOLE LIBRARY ! PLEASE READ !
-
-🚀Now, It has two Header which are : 
-
-* ClassicHeader (Old One)
-* ModernHeader (New One)
-
-Usage is not changed however import method is changed. Please check the example ✌️
 
 **Merged pull requests:**
 
