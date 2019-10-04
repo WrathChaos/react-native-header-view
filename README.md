@@ -190,6 +190,11 @@ npm i @freakycoder/react-native-header-view
 # Change Log
 
 ## [0.4.7](https://github.com/WrathChaos/react-native-header-view/tree/0.4.7) (2019-10-04)
+
+**Implemented enhancements:**
+
+- Apple header Bg colour options  [\#6](https://github.com/WrathChaos/react-native-header-view/issues/6)
+
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.6...0.4.7)
 
 ## [0.4.6](https://github.com/WrathChaos/react-native-header-view/tree/0.4.6) (2019-10-04)
