@@ -56,19 +56,19 @@ npm i @freakycoder/react-native-header-view
 
 ## Apple Header Usage
 
-```js
+```jsx
 <AppleHeader />
 ```
 
 ## Modern Header Usage
 
-```js
+```jsx
 <ModernHeader />
 ```
 
 #### Advanced Usage
 
-```js
+```jsx
 <ModernHeader
   text="Profile"
   rightIconType="Ionicons"
@@ -81,7 +81,7 @@ npm i @freakycoder/react-native-header-view
 
 #### Basic Usage
 
-```js
+```jsx
 <ClassicHeader
   headerTitle="Header"
   rightComponentDisable
@@ -96,7 +96,7 @@ npm i @freakycoder/react-native-header-view
 ```
 #### Advanced Custom Usage
 
-```js
+```jsx
 <ClassicHeader
   headerTitle="Header"
   leftComponent={
