@@ -1,17 +1,18 @@
 import React, { Fragment } from "react";
-import { StatusBar, SafeAreaView } from "react-native";
+import { StatusBar, SafeAreaView, TouchableOpacity } from "react-native";
 import {
   AppleHeader,
   ModernHeader,
   ClassicHeader
 } from "@freakycoder/react-native-header-view";
+import Icon from "react-native-dynamic-vector-icons";
 
 const App = () => {
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        {/* <ClassicHeader
+        <ClassicHeader
           statusBarHidden
           headerTitle="Header"
           rightComponent={
@@ -22,9 +23,9 @@ const App = () => {
               <Icon name="github" type="AntDesign" size={30} color="purple" />
             </TouchableOpacity>
           }
-        /> */}
+        />
         {/* <ModernHeader /> */}
-        <AppleHeader />
+        {/* <AppleHeader /> */}
       </SafeAreaView>
     </Fragment>
   );
