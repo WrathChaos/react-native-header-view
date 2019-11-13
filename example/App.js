@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { StatusBar, SafeAreaView, TouchableOpacity } from "react-native";
+import {
+  StatusBar,
+  SafeAreaView,
+  TouchableOpacity,
+  Linking
+} from "react-native";
 import {
   AppleHeader,
   ModernHeader,
@@ -12,7 +17,7 @@ const App = () => {
     <Fragment>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <ClassicHeader
+        {/* <ClassicHeader
           statusBarHidden
           headerTitle="Header"
           rightComponent={
@@ -23,8 +28,8 @@ const App = () => {
               <Icon name="github" type="AntDesign" size={30} color="purple" />
             </TouchableOpacity>
           }
-        />
-        {/* <ModernHeader /> */}
+        /> */}
+        <ModernHeader />
         {/* <AppleHeader /> */}
       </SafeAreaView>
     </Fragment>
