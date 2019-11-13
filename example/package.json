@@ -12,7 +12,6 @@
     "react": "16.8.6",
     "react-native": "0.60.4",
     "react-native-dynamic-vector-icons": "0.0.4",
-    "react-native-iphone-x-helper": "^1.2.1",
     "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
