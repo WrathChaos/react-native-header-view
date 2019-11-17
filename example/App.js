@@ -15,7 +15,7 @@ import Icon from "react-native-dynamic-vector-icons";
 const App = () => {
   return (
     <Fragment>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" />
       <SafeAreaView>
         {/* <ClassicHeader
           statusBarHidden
@@ -29,8 +29,8 @@ const App = () => {
             </TouchableOpacity>
           }
         /> */}
-        <ModernHeader />
-        {/* <AppleHeader /> */}
+        {/* <ModernHeader /> */}
+        <AppleHeader />
       </SafeAreaView>
     </Fragment>
   );
