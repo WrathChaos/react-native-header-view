@@ -74,6 +74,8 @@ npm i @freakycoder/react-native-header-view
   rightIconType="Ionicons"
   rightIconName="ios-settings"
   rightIconColor={colors.light.primary}
+  leftIconComponent={your-icon-component}
+  rightIconComponent={your-icon-component}
   leftIconOnPress={() => NavigationService.back()}
 />
 ```
@@ -114,10 +116,9 @@ npm i @freakycoder/react-native-header-view
 />
 ```
 
-### Configuration - Props
+# Configuration - Props
 
-#### Apple Header Props
-
+## Apple Header Props
 
 | Property             |   Type   |       Default       | Description                                                                           |
 | -------------------- | :------: | :-----------------: | ------------------------------------------------------------------------------------- |
@@ -139,7 +140,7 @@ npm i @freakycoder/react-native-header-view
 | avatarStyle          |  style   |    default style    | use this to set your own style for avatar style (DO NOT FORGET TO ADD BORDER-RADIUS!) |
 
 
-#### Modern Header Props
+## Modern Header Props
 
 | Property           |   Type    |    Default     | Description                                                     |
 | ------------------ | :-------: | :------------: | --------------------------------------------------------------- |
@@ -164,7 +165,7 @@ npm i @freakycoder/react-native-header-view
 | rightDisable       |  boolean  |     false      | disable the right icon component                                |
 
 
-#### Classic Header Props
+## Classic Header Props
 
 | Property              |   Type    |  Default   | Description                                                                  |
 | --------------------- | :-------: | :--------: | ---------------------------------------------------------------------------- |
@@ -189,12 +190,17 @@ npm i @freakycoder/react-native-header-view
 
 # Change Log
 
-## [0.4.7](https://github.com/WrathChaos/react-native-header-view/tree/0.4.7) (2019-10-04)
+## [0.4.11](https://github.com/WrathChaos/react-native-header-view/tree/0.4.11) (2019-11-13)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.10...0.4.11)
+
+## [0.4.10](https://github.com/WrathChaos/react-native-header-view/tree/0.4.10) (2019-11-13)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.7...0.4.10)
 
 **Implemented enhancements:**
 
 - Apple header Bg colour options  [\#6](https://github.com/WrathChaos/react-native-header-view/issues/6)
 
+## [0.4.7](https://github.com/WrathChaos/react-native-header-view/tree/0.4.7) (2019-10-04)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.6...0.4.7)
 
 ## [0.4.6](https://github.com/WrathChaos/react-native-header-view/tree/0.4.6) (2019-10-04)
@@ -208,21 +214,11 @@ npm i @freakycoder/react-native-header-view
 
 - Bump eslint-utils from 1.4.0 to 1.4.2 in /example [\#4](https://github.com/WrathChaos/react-native-header-view/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
-
 ## [0.4.5](https://github.com/WrathChaos/react-native-header-view/tree/0.4.5) (2019-08-17)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.3.0...0.4.5)
 
 ## [0.3.0](https://github.com/WrathChaos/react-native-header-view/tree/0.3.0) (2019-08-12)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.2.61...0.3.0)
-
-⚠️ BREAKING CHANGE ON WHOLE LIBRARY ! PLEASE READ !
-
-🚀Now, It has two Header which are : 
-
-* ClassicHeader (Old One)
-* ModernHeader (New One)
-
-Usage is not changed however import method is changed. Please check the example ✌️
 
 **Merged pull requests:**
 

@@ -1,5 +1,15 @@
 # Change Log
 
+## [0.4.11](https://github.com/WrathChaos/react-native-header-view/tree/0.4.11) (2019-11-13)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.10...0.4.11)
+
+## [0.4.10](https://github.com/WrathChaos/react-native-header-view/tree/0.4.10) (2019-11-13)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.7...0.4.10)
+
+**Implemented enhancements:**
+
+- Apple header Bg colour options  [\#6](https://github.com/WrathChaos/react-native-header-view/issues/6)
+
 ## [0.4.7](https://github.com/WrathChaos/react-native-header-view/tree/0.4.7) (2019-10-04)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.6...0.4.7)
 
