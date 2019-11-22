@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.4.13](https://github.com/WrathChaos/react-native-header-view/tree/0.4.13) (2019-11-22)
+[Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.11...0.4.13)
+
 ## [0.4.11](https://github.com/WrathChaos/react-native-header-view/tree/0.4.11) (2019-11-13)
 [Full Changelog](https://github.com/WrathChaos/react-native-header-view/compare/0.4.10...0.4.11)
 
