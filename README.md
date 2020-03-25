@@ -36,8 +36,9 @@ npm i @freakycoder/react-native-header-view
 ```
 "react": ">= 16.x",
 "react-native": ">= 0.55.x",
-"@freakycoder/react-native-helpers": ">= 0.0.2",
+"react-native-vector-icons": ">= 6.6.0",
 "react-native-dynamic-vector-icons": ">= x.x.x"
+"@freakycoder/react-native-helpers": ">= 0.0.2",
 ```
 
 # Options
