@@ -11,12 +11,16 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
 <p align="center">
-<img alt="React Native Header View" src="assets/Screenshots/ss3.png" width="49.7%"/>
-<img alt="React Native Header View" src="assets/Screenshots/ss2.png" width="49.7%" height="420"/>
+<img alt="React Native Header View" src="assets/Screenshots/ss3.png" width="49.7%" />
+<img alt="React Native Header View" src="assets/Screenshots/ss2.png" width="49.7%" />
 </p>
 
 <p align="center">
-<img alt="React Native Header View" src="assets/Screenshots/ss1.png" width="49.7%"/>
+<img alt="React Native Header View" src="assets/Screenshots/ss1.png" width="49.7%" />
+</p>
+
+<p align="center">
+<img alt="React Native Header View" src="assets/Screenshots/gorgeous-header-view.png" width="49.7%" />
 </p>
 
 ## Installation
