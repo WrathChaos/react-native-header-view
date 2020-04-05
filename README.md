@@ -43,18 +43,27 @@ npm i @freakycoder/react-native-header-view
 
 # Options
 
+- GorgeousHeader
 - AppleHeader
 - ModernHeader
 - ClassicHeader
 
 # Usage
 
+## Gorgeous Header Usage
+
+```jsx
+import { Gorgeous } from "@freakycoder/react-native-header-view";
+
+<Gorgeous onChangeText={(text) => console.log(text)} />;
+```
+
 ## Apple Header Usage
 
 ```jsx
 import { AppleHeader } from "@freakycoder/react-native-header-view";
 
-<AppleHeader />
+<AppleHeader />;
 ```
 
 ## Modern Header Usage
@@ -62,7 +71,7 @@ import { AppleHeader } from "@freakycoder/react-native-header-view";
 ```jsx
 import { ModernHeader } from "@freakycoder/react-native-header-view";
 
-<ModernHeader />
+<ModernHeader />;
 ```
 
 #### Advanced Usage
@@ -79,7 +88,7 @@ import { ModernHeader } from "@freakycoder/react-native-header-view";
   leftIconComponent={your - icon - component}
   rightIconComponent={your - icon - component}
   leftIconOnPress={() => NavigationService.back()}
-/>
+/>;
 ```
 
 ## Classic Header Usage
@@ -119,10 +128,27 @@ import { ClassicHeader } from "@freakycoder/react-native-header-view";
       <Icon name="github" type="AntDesign" size={30} color="purple" />
     </TouchableOpacity>
   }
-/>
+/>;
 ```
 
 # Configuration - Props
+
+## Gorgeous Header Props
+
+| Property            |   Type   |            Default             | Description                                                             |
+| ------------------- | :------: | :----------------------------: | ----------------------------------------------------------------------- |
+| title               |  string  |             Order              | change the title                                                        |
+| subtitle            |  string  | Healthy food can keep you fit. | change the subtitle                                                     |
+| searchIcon          |  asset   |            default             | set your own icon for the search one                                    |
+| titleTextStyle      |  style   |            default             | set your own style for title text                                       |
+| subtitleTextStyle   |  style   |            default             | set your own style for subtitle text                                    |
+| searchInputStyle    |  style   |            default             | set your own style for search text input                                |
+| menuImageStyle      |  style   |            default             | set your own style for hamburger menu image                             |
+| menuImageSource     |  asset   |            default             | set your own image instead of default hamburger menu image              |
+| menuImageOnPress    | function |           undefined            | use this to set your own function for pressing the hamburger menu image |
+| profileImageStyle   |  style   |            default             | set your own style for profile image                                    |
+| profileImageSource  |  asset   |           undefined            | use this to set your own image for profile image                        |
+| profileImageOnPress | function |           undefined            | use this to set your own function for pressing the profile image        |
 
 ## Apple Header Props
 
