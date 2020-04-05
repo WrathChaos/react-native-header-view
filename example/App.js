@@ -3,14 +3,16 @@ import {
   StatusBar,
   SafeAreaView,
   TouchableOpacity,
-  Linking
+  Linking,
 } from "react-native";
 import {
   AppleHeader,
   ModernHeader,
-  ClassicHeader
+  ClassicHeader,
 } from "@freakycoder/react-native-header-view";
 import Icon from "react-native-dynamic-vector-icons";
+
+import GorgeousHeader from "./lib/src/components/GorgeousHeader/GorgeousHeader";
 
 const App = () => {
   return (
@@ -30,7 +32,8 @@ const App = () => {
           }
         /> */}
         {/* <ModernHeader /> */}
-        <AppleHeader />
+        {/* <AppleHeader /> */}
+        <GorgeousHeader />
       </SafeAreaView>
     </Fragment>
   );
