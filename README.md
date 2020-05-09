@@ -149,6 +149,7 @@ import { ClassicHeader } from "@freakycoder/react-native-header-view";
 | searchIcon          |  asset   |            default             | set your own icon for the search one                                    |
 | titleTextStyle      |  style   |            default             | set your own style for title text                                       |
 | subtitleTextStyle   |  style   |            default             | set your own style for subtitle text                                    |
+| searchBarStyle      |  style   |            default             | set your own style for search text input container                      |
 | searchInputStyle    |  style   |            default             | set your own style for search text input                                |
 | menuImageStyle      |  style   |            default             | set your own style for hamburger menu image                             |
 | menuImageSource     |  asset   |            default             | set your own image instead of default hamburger menu image              |
