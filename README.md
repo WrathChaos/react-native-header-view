@@ -60,9 +60,9 @@ npm i @freakycoder/react-native-header-view
 ## Gorgeous Header Usage
 
 ```jsx
-import { Gorgeous } from "@freakycoder/react-native-header-view";
+import { GorgeousHeader } from "@freakycoder/react-native-header-view";
 
-<Gorgeous onChangeText={(text) => console.log(text)} />;
+<GorgeousHeader onChangeText={(text) => console.log(text)} />;
 ```
 
 ## Apple Header Usage
