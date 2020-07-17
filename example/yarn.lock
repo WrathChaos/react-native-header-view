@@ -662,10 +662,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@freakycoder/react-native-header-view@^0.4.11":
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/@freakycoder/react-native-header-view/-/react-native-header-view-0.4.13.tgz#05e9d98608fd68eecf3aaf811453e8236b96ce6c"
-  integrity sha512-SGx5GWHwWcsDgHuu29s00E9zB6Chps8FJxS5MiRayd9YPHflmD6VK4QX7oXuR7bUqJyyySpdPcO4DUkTpr/aUg==
+"@freakycoder/react-native-header-view@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@freakycoder/react-native-header-view/-/react-native-header-view-0.5.0.tgz#be376276c9d11de038dc3cbed58164f9f8ba139f"
+  integrity sha512-DIsUS043RJozQAJy9aGC3F+2W6rwVAxs3KRHddn3gNJbgMY76wJgiDRNAi0DOnkJrpyUFic+hIfWJz3PLViHsw==
 
 "@freakycoder/react-native-helpers@0.0.21":
   version "0.0.21"
@@ -4026,9 +4026,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
