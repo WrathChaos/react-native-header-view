@@ -51,7 +51,7 @@
 
 # Finally Version 1.0.0 🥳
 
-Finally this library got the version **1.0.0**. More than **5k downloads** and it is separated by each header view. This library contains the collection of each header view. If you do not need to use them all, you can reach and install header views on its own repository.
+Finally, this library got the version **1.0.0**. More than **5k downloads** and it is separated by each header view. This library contains the collection of each header view. If you do not need to use them all, you can reach and install header views on its own repository.
 
 # Options
 
