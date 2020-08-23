@@ -5,13 +5,7 @@ import {
   SafeAreaView,
   TouchableOpacity,
 } from "react-native";
-import {
-  AppleHeader,
-  ModernHeader,
-  ClassicHeader,
-  GorgeousHeader,
-} from "@freakycoder/react-native-header-view";
-import Icon from "react-native-dynamic-vector-icons";
+import { GorgeousHeader } from "@freakycoder/react-native-header-view";
 
 const App = () => {
   return (

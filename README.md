@@ -1,8 +1,8 @@
-<img alt="React Native Bottom Bar" src="https://github.com/WrathChaos/react-native-header-view/blob/master/assets/Screenshots/logo.png" width="1050"/>
+<img alt="React Native Bottom Bar" src="assets/logo.png" width="1050"/>
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
 
-[![Fully customizable Header View with multiple design options for React Native.](https://img.shields.io/badge/-Fully%20customizable%20Header%20View%20with%20multiple%20design%20options%20for%20React%20Native.-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-view)
+[![Collection of Header Views for React Native](https://img.shields.io/badge/-Collection%20of%20Header%20Views%20for%20React%20Native-orange?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-view)
 
 [![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-header-view.svg?style=for-the-badge)](https://www.npmjs.com/package/@freakycoder/react-native-header-view)
 [![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-header-view.svg?style=for-the-badge)](https://www.npmjs.org/package/@freakycoder/react-native-header-view)
@@ -10,29 +10,65 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
-<p align="center">
-  <img alt="React Native Header View" src="assets/Screenshots/ss3.png" width="49.7%" />
-  <img alt="React Native Header View" src="assets/Screenshots/ss2.png" width="49.7%" />
-</p>
+<table>
+  <tr>
+    <td>
+      <b>Apple Header</b>
+    </td>
+    <td>
+      <b>Gorgeous Header</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img alt="React Native Apple Header View" src="assets/Screenshots/apple-header-view.png" width="686px"/>
+    </td>
+    <td align="center">
+      <img alt="React Native Gorgeous Header View" src="assets/Screenshots/gorgeous-header-view.png" width="686px" />
+    </td>
+   </tr>
+  
+</table>
 
-<p align="center">
-  <img alt="React Native Header View" src="assets/Screenshots/ss1.png" width="49.7%" />
-</p>
+<table>
+  <tr>
+    <td>
+      <b>Classic Header</b>
+    </td>
+    <td>
+      <b>Modern Header</b>
+    </td>
+  </tr>
+ <tr>
+    <td align="center"> 
+      <img alt="React Native Classic Header View" src="assets/Screenshots/classic-header-view.png" width="686px"  />
+    </td>
+    <td align="center">
+      <img alt="React Native Modern Header View" src="assets/Screenshots/modern-header-view2.png" width="686px"  />
+    </td>
+   </tr>
+</table>
 
-<p align="center">
-  <b>Gorgeous Header View</b>
-</p>
-<p align="center">
-  <img alt="React Native Header View" src="assets/Screenshots/gorgeous-header-view.png" width="70%" />
-</p>
+# Finally Version 1.0.0 🥳
+
+Finally this library got the version **1.0.0**. More than **5k downloads** and it is separated by each header view. This library contains the collection of each header view. If you do not need to use them all, you can reach and install header views on its own repository.
+
+# Options
+
+- [GorgeousHeader](https://github.com/WrathChaos/react-native-gorgeous-header)
+- [AppleHeader](https://github.com/WrathChaos/react-native-apple-header)
+- [ModernHeader](https://github.com/WrathChaos/react-native-modern-header)
+- [ClassicHeader](https://github.com/WrathChaos/react-native-classic-header)
 
 ## Installation
 
+<b><i>You can use each Header View separately if you do not want to use the collection.</i></b>
+
 Add the dependency:
 
-### Pure React Native:
+### Pure React Native
 
-```ruby
+```bash
 npm i @freakycoder/react-native-header-view
 ```
 
@@ -40,20 +76,12 @@ npm i @freakycoder/react-native-header-view
 
 ##### IMPORTANT! You need install them.
 
+```bash
+"react-native-gorgeous-header": ">= 0.1.0",
+"react-native-classic-header": ">= 0.1.0",
+"react-native-modern-header": ">= 0.1.0",
+"react-native-apple-header": ">= 0.1.0"
 ```
-"react": ">= 16.x",
-"react-native": ">= 0.55.x",
-"react-native-vector-icons": ">= 6.6.0",
-"react-native-dynamic-vector-icons": ">= x.x.x"
-"@freakycoder/react-native-helpers": ">= 0.0.2",
-```
-
-# Options
-
-- GorgeousHeader
-- AppleHeader
-- ModernHeader
-- ClassicHeader
 
 # Usage
 
@@ -81,7 +109,7 @@ import { ModernHeader } from "@freakycoder/react-native-header-view";
 <ModernHeader />;
 ```
 
-#### Advanced Usage
+### Advanced Usage
 
 ```jsx
 import { ModernHeader } from "@freakycoder/react-native-header-view";
@@ -100,7 +128,7 @@ import { ModernHeader } from "@freakycoder/react-native-header-view";
 
 ## Classic Header Usage
 
-#### Basic Usage
+### Basic Usage
 
 ```jsx
 import { ClassicHeader } from "@freakycoder/react-native-header-view";

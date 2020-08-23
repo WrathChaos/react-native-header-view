@@ -10,23 +10,19 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@freakycoder/react-native-header-view": "0.5.0",
-    "@freakycoder/react-native-helpers": "0.0.21",
-    "react": "16.12.0",
-    "react-native": "0.61.4",
-    "react-native-dynamic-vector-icons": "0.2.1",
-    "react-native-linear-gradient": "^2.5.6",
-    "react-native-vector-icons": "^6.6.0"
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-gorgeous-header": "^0.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/runtime": "^7.7.2",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.6.0",
-    "jest": "^24.9.0",
-    "metro-react-native-babel-preset": "^0.57.0",
-    "react-test-renderer": "16.9.0"
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
