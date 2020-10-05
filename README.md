@@ -59,6 +59,7 @@ Finally, this library got the version **1.0.0**. More than **5k downloads** and 
 - [AppleHeader](https://github.com/WrathChaos/react-native-apple-header)
 - [ModernHeader](https://github.com/WrathChaos/react-native-modern-header)
 - [ClassicHeader](https://github.com/WrathChaos/react-native-classic-header)
+- [ProfileHeader](https://github.com/WrathChaos/react-native-profile-header)
 
 ## Installation
 
@@ -80,7 +81,8 @@ npm i @freakycoder/react-native-header-view
 "react-native-gorgeous-header": ">= 0.1.0",
 "react-native-classic-header": ">= 0.1.0",
 "react-native-modern-header": ">= 0.1.0",
-"react-native-apple-header": ">= 0.1.0"
+"react-native-apple-header": ">= 0.1.0",
+"react-native-profile-header": ">= 0.1.0",
 ```
 
 # Usage
@@ -164,6 +166,14 @@ import { ClassicHeader } from "@freakycoder/react-native-header-view";
     </TouchableOpacity>
   }
 />;
+```
+
+## Profile Header Usage
+
+```jsx
+import { ProfileHeader } from "@freakycoder/react-native-header-view";
+
+<ProfileHeader />;
 ```
 
 # Configuration - Props
@@ -256,6 +266,30 @@ import { ClassicHeader } from "@freakycoder/react-native-header-view";
 | rightComponentOnPress | function  |    null    | set the right component's onPress function                                   |
 | centerComponent       | component |    Icon    | set the center component                                                     |
 | centerComponentStyle  |   style   |   style    | set the center component's style                                             |
+
+## ProfileHeader Props
+
+| Property                     |   Type    |  Default  | Description                                                                             |
+| ---------------------------- | :-------: | :-------: | --------------------------------------------------------------------------------------- |
+| onLeftButtonPress            | function  | undefined | set the logic for left aligned button                                                   |
+| onProfilePicPress            | function  | undefined | set the logic for profile picture                                                       |
+| onFirstIconPress             | function  | undefined | set the logic for first icon button                                                     |
+| onSecondIconPress            | function  | undefined | set the logic for second icon button                                                    |
+| onThirdIconPress             | function  | undefined | set the logic for third icon button                                                     |
+| profileImageSource           |   image   |  default  | change the profile image source                                                         |
+| leftAlignedButtonImageSource |   image   |  default  | change the left aligned button image source                                             |
+| firstIconImageSource         |   image   |  default  | change the first icon image source                                                      |
+| secondIconImageSource        |   image   |  default  | change the second icon image source                                                     |
+| thirdIconImageSource         |   image   |  default  | change the third icon image source                                                      |
+| titleText                    |  string   | undefined | change the title text                                                                   |
+| height                       |  number   |    50     | change the profile header's height                                                      |
+| backgroundColor              |   color   |   #fff    | change the profile header's background color                                            |
+| leftButtonComponent          | component |   Image   | set your own component instead of default left aligned Button Image                     |
+| disableFirstIcon             |  boolean  |   false   | disable the first icon                                                                  |
+| disableSecondIcon            |  boolean  |   false   | disable the second icon                                                                 |
+| disableThirdIcon             |  boolean  |   false   | disable the third icon                                                                  |
+| disableLeftAlignedButton     |  boolean  |   false   | disable the left aligned icon                                                           |
+| ImageComponent               | component |   Image   | set your own Image component instead of default react native Image such as; `FastImage` |
 
 # Change Log
 
