@@ -49,6 +49,25 @@
    </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <b>Profile Header</b>
+    </td>
+    <!-- <td>
+      <b>Coming Soon</b>
+    </td> -->
+  </tr>
+ <tr>
+    <td align="center"> 
+      <img alt="React Native Profile Header View" src="assets/Screenshots/profile-header-view.png" width="456px"  />
+    </td>
+    <!-- <td align="center">
+      <img alt="React Native Modern Header View" src="assets/Screenshots/modern-header-view2.png" width="686px"  />
+    </td> -->
+   </tr>
+</table>
+
 # Finally Version 1.0.0 🥳
 
 Finally, this library got the version **1.0.0**. More than **5k downloads** and it is separated by each header view. This library contains the collection of each header view. If you do not need to use them all, you can reach and install header views on its own repository.
