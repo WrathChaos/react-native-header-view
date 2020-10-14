@@ -10,14 +10,17 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@freakycoder/react-native-header-view": "^1.1.0",
+    "@freakycoder/react-native-bounceable": "^0.2.0",
+    "@freakycoder/react-native-header-view": "^1.1.1",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-apple-header": "^0.1.1",
     "react-native-classic-header": "^0.1.0",
+    "react-native-dynamic-vector-icons": "^1.1.4",
     "react-native-gorgeous-header": "^0.1.0",
     "react-native-modern-header": "^0.1.0",
-    "react-native-profile-header": "^0.1.1"
+    "react-native-profile-header": "^0.1.1",
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
