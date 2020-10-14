@@ -10,7 +10,6 @@ module.exports = {
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
-        allowOptionalDependencies: true,
         inlineRequires: false,
       },
     }),

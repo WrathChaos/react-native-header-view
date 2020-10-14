@@ -1,6 +1,6 @@
 {
   "name": "@freakycoder/react-native-header-view",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Collection of Header Views for React Native.",
   "keywords": [
     "gorgeous",
@@ -23,7 +23,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-header-view/issues",
-  "main": "./lib/src/index.js",
+  "main": "./lib/index.js",
   "repository": "git@github.com:WrathChaos/react-native-header-view.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
