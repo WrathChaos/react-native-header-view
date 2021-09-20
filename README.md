@@ -33,7 +33,7 @@
 <table>
   <tr>
     <td>
-      <b>Classic Header</b>
+      <b>Elegant Header</b>
     </td>
     <td>
       <b>Modern Header</b>
@@ -41,7 +41,7 @@
   </tr>
  <tr>
     <td align="center"> 
-      <img alt="React Native Classic Header View" src="assets/Screenshots/classic-header-view.png" width="686px"  />
+      <img alt="React Native Elegant Header View" src="assets/Screenshots/react-native-elegant-header.png" width="686px"  />
     </td>
     <td align="center">
       <img alt="React Native Modern Header View" src="assets/Screenshots/modern-header-view2.png" width="686px"  />
@@ -54,17 +54,17 @@
     <td>
       <b>Profile Header</b>
     </td>
-    <!-- <td>
-      <b>Coming Soon</b>
-    </td> -->
+    <td>
+      <b>Classic Header</b>
+    </td>
   </tr>
  <tr>
     <td align="center"> 
-      <img alt="React Native Profile Header View" src="assets/Screenshots/profile-header-view.png" width="456px"  />
+      <img alt="React Native Profile Header View" src="assets/Screenshots/profile-header-view.png" width="686px"  />
     </td>
-    <!-- <td align="center">
-      <img alt="React Native Modern Header View" src="assets/Screenshots/modern-header-view2.png" width="686px"  />
-    </td> -->
+    <td align="center">
+      <img alt="React Native Classic Header View" src="assets/Screenshots/classic-header-view.png" width="686px"  />
+    </td>
    </tr>
 </table>
 

@@ -1,8 +1,10 @@
 {
   "name": "@freakycoder/react-native-header-view",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Collection of Header Views for React Native.",
   "keywords": [
+    "elegant",
+    "elegant-header",
     "gorgeous",
     "gorgeous-header",
     "apple",
@@ -33,6 +35,7 @@
     "react-native-gorgeous-header": ">= 0.1.0",
     "react-native-classic-header": ">= 0.1.0",
     "react-native-modern-header": ">= 0.1.0",
-    "react-native-apple-header": ">= 0.1.0"
+    "react-native-apple-header": ">= 0.1.0",
+    "react-native-elegant-header": ">= 0.1.0"
   }
 }

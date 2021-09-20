@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import {
-  Linking,
   StatusBar,
   SafeAreaView,
-  TouchableOpacity,
 } from "react-native";
 import { GorgeousHeader } from "@freakycoder/react-native-header-view";
 
