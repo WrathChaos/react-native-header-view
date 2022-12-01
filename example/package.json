@@ -13,7 +13,7 @@
     "@freakycoder/react-native-bounceable": "^0.2.0",
     "@freakycoder/react-native-header-view": "^1.1.1",
     "react": "16.13.1",
-    "react-native": "0.64.1",
+    "react-native": "0.70.6",
     "react-native-apple-header": "^0.1.1",
     "react-native-classic-header": "^0.1.0",
     "react-native-dynamic-vector-icons": "^1.1.4",
