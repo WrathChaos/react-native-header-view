@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "declaration": false,
+    "resolveJsonModule": true,
+    "types": ["jest"]
+  },
+  "include": ["lib/index.d.ts", "__tests__/**/*.ts", "__tests__/**/*.tsx"],
+  "exclude": ["node_modules", "example", "lib/index.js"]
+}

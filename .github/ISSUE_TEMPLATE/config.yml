@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sub-package issues
+    url: https://github.com/kuraydev
+    about: This package only re-exports the standalone header packages. For a bug in a specific header's behavior, please file it on that header's own repository.
