@@ -1,41 +1,114 @@
 {
   "name": "@freakycoder/react-native-header-view",
   "version": "1.2.0",
-  "description": "Collection of Header Views for React Native.",
+  "description": "Collection of customizable Header Views for React Native (Gorgeous, Apple, Modern, Classic, Profile, Elegant).",
   "keywords": [
-    "elegant",
-    "elegant-header",
-    "gorgeous",
-    "gorgeous-header",
-    "apple",
-    "apple-header",
+    "react-native",
+    "react-native-header",
     "header",
-    "classic",
-    "modern",
+    "header-view",
+    "elegant-header",
+    "gorgeous-header",
+    "apple-header",
     "modern-header",
     "classic-header",
-    "react-native",
-    "icons",
-    "javascript",
+    "profile-header",
+    "navbar",
+    "navigation-bar",
     "ui-lib",
-    "rn",
-    "header-view",
-    "header",
-    "view"
+    "ios",
+    "android"
   ],
-  "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-header-view/issues",
   "main": "./lib/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-header-view.git",
+  "module": "./lib/index.js",
+  "react-native": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "react-native": "./lib/index.js",
+      "import": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "lib",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/kuraydev/react-native-header-view#readme",
+  "bugs": {
+    "url": "https://github.com/kuraydev/react-native-header-view/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuraydev/react-native-header-view.git"
+  },
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "jest",
+    "build": "tsc --noEmit"
+  },
   "peerDependencies": {
-    "react": ">= 16.x",
-    "react-native": ">= 0.55.x",
-    "react-native-gorgeous-header": ">= 0.1.0",
-    "react-native-classic-header": ">= 0.1.0",
-    "react-native-modern-header": ">= 0.1.0",
-    "react-native-apple-header": ">= 0.1.0",
-    "react-native-elegant-header": ">= 0.1.0"
+    "react": ">=16.8.0",
+    "react-native": ">=0.55.0",
+    "react-native-apple-header": ">=0.1.0",
+    "react-native-classic-header": ">=0.1.0",
+    "react-native-elegant-header": ">=0.1.0",
+    "react-native-gorgeous-header": ">=0.1.0",
+    "react-native-modern-header": ">=0.1.0",
+    "react-native-profile-header": ">=0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "react-native-apple-header": {
+      "optional": true
+    },
+    "react-native-classic-header": {
+      "optional": true
+    },
+    "react-native-elegant-header": {
+      "optional": true
+    },
+    "react-native-gorgeous-header": {
+      "optional": true
+    },
+    "react-native-modern-header": {
+      "optional": true
+    },
+    "react-native-profile-header": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@eslint/js": "^9.17.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.12",
+    "@types/react-test-renderer": "^18.3.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.13.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "react": "^18.3.1",
+    "react-test-renderer": "^18.3.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.18.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
