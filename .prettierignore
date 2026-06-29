@@ -1,0 +1,9 @@
+node_modules
+coverage
+lib
+example/node_modules
+example/ios
+example/android
+example/yarn.lock
+example/package-lock.json
+CHANGELOG.md
